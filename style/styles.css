@@ -108,4 +108,10 @@ p {
   .link-wrapper {
     text-align: center;
   }
+  #contact h2 {
+    text-align: center;
+  }
+  #contact a {
+    text-align: center;
+  }
 }
