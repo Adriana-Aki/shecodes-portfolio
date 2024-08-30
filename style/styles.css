@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --def-font-family: "Raleway";
 }
 
 body {
@@ -13,6 +14,7 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: var(--def-font-family);
 }
 
 h1 {
@@ -66,6 +68,18 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+
+.main-logo {
+  width: 130px;
+}
+
+.person {
+  font-family: var(--def-font-family);
+  font-size: 20px;
+  font-weight: bolder;
+  color: #568e70;
+  margin-left: 20px;
 }
 
 .about-paragraphs {
