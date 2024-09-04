@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #568e70;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --def-font-family: "Raleway";
@@ -8,6 +8,25 @@
 body {
   margin: 60px auto;
 }
+/* 
+.video-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -100;
+}
+
+.page-bcg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(227, 226, 226, 0.25);
+}
+*/
 
 h1,
 h2,
@@ -19,15 +38,19 @@ h3 {
 
 h1 {
   font-size: 96px !important;
+  color: #175885 !important;
 }
 
 h2 {
   font-size: 48px !important;
+  opacity: 0.99;
+  color: #175885 !important;
 }
 
 h3 {
   font-size: 24px !important;
   opacity: 0.7;
+  color: #175885 !important;
 }
 
 p {
@@ -43,6 +66,7 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  opacity: 0.99;
 }
 
 .navigation-links a {
