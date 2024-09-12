@@ -129,6 +129,13 @@ p {
   text-decoration: none;
 }
 
+.credits {
+  color: white;
+}
+.credits a {
+  color: white;
+}
+
 .about-color {
   color: white;
   box-shadow: var(--box-shadow);
