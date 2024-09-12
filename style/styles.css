@@ -143,6 +143,10 @@ p {
   color: white;
 }
 
+.contact-header {
+  color: #175885 !important;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 36px !important;
