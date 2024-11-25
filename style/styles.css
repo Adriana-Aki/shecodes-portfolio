@@ -20,26 +20,6 @@ body {
   text-align: center;
 }
 
-/* 
-.video-banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  z-index: -100;
-}
-
-.page-bcg::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(227, 226, 226, 0.25);
-}
-*/
-
 h1,
 h2,
 h3 {
