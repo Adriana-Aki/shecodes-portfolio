@@ -19,7 +19,7 @@ body {
 }
 .page-bcg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/bcg.mp4");
+    url("../images/bcg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
