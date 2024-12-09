@@ -21,6 +21,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/bcg.jpg");
   background-size: cover;
+  height: 90%;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 200px;
@@ -30,7 +31,7 @@ body {
 
 .page-bcg {
   background-color: #175885;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .page-contact-bcg {
@@ -156,10 +157,11 @@ p {
 }
 
 .credits {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
 }
+
 .credits a {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .about-color {
@@ -198,7 +200,7 @@ p {
     font-size: 36px !important;
   }
   h2 {
-    font-size: 30px !important;
+    font-size: 24px !important;
   }
   .link-wrapper {
     text-align: center;
