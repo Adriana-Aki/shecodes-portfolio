@@ -1,6 +1,7 @@
 :root {
   --primary-color: #568e70;
   --secondary-color: #f5f2fe;
+  --third-color: #175885;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --def-font-family: "Raleway";
 }
@@ -9,15 +10,27 @@ body {
   margin: 0 auto;
   background-color: #175885 !important;
 }
+
+.sticky-top {
+  position: fixed !important;
+  top: 0;
+  z-index: 1020;
+  width: 100%;
+}
 .page-bcg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("..//images/bcg.mp4");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/bcg.mp4");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+}
+
+.page-about-bcg {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 h1,
@@ -34,8 +47,8 @@ h1 {
 }
 
 h2 {
-  font-size: 48px !important;
-  opacity: 0.99;
+  font-size: 34px !important;
+  opacity: 0.8;
   color: white !important;
 }
 
@@ -72,18 +85,27 @@ p {
 .page-bcg {
   background-color: #175885;
   margin-bottom: 150px;
-  margin-top: 100px;
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--third-color);
+  transition: all 300ms ease-in-out;
+}
+
+.contact-link:hover {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .about-link {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  transition: all 300ms ease-in-out;
+}
+
+.about-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .homepage-link {
@@ -115,9 +137,17 @@ p {
 .email-link {
   display: flex;
 
-  color: var(--primary-color);
+  color: var(--third-color);
   font-size: 28px;
   text-decoration: none;
+}
+
+.git {
+  align-self: center;
+}
+
+.li {
+  align-self: center;
 }
 
 .credits {
@@ -152,6 +182,10 @@ p {
 
 .contact-p {
   text-align: left;
+}
+
+.octicon {
+  color: var(--third-color);
 }
 
 @media (max-width: 576px) {
