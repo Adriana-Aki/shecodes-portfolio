@@ -28,6 +28,16 @@ body {
   text-align: center;
 }
 
+.page-bcg {
+  background-color: #175885;
+  margin-bottom: 50px;
+}
+
+.page-contact-bcg {
+  background-color: #175885;
+  margin-bottom: 50px;
+}
+
 .page-about-bcg {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -80,11 +90,6 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.page-bcg {
-  background-color: #175885;
-  margin-bottom: 150px;
 }
 
 .contact-link {
